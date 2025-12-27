@@ -1,0 +1,33 @@
+/* src/Sidebar.css */
+.sidebar {
+  width: 250px; /* Fixed width for the sidebar */
+  background-color: #333; /* Dark background color */
+  color: white;
+  height: 100vh; /* Full height of the viewport */
+  position: fixed; /* Stays in place when scrolling */
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+}
+
+.sidebar-header h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00bcd4; /* A little color accent */
+}
+
+.nav-links a {
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ccc; /* Light gray color for links */
+  display: block; /* Makes links take the full width */
+  transition: 0.3s;
+}
+
+/* Change color on hover */
+.nav-links a:hover {
+  background-color: #575757;
+  color: white;
+}

@@ -1,0 +1,45 @@
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: end;
+  gap: 0.75rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.field span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.plus {
+  font-size: 1.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.result {
+  font-weight: 600;
+}
+
+.hint {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
